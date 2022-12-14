@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671024746922' stop='1671024747615'>
+    <name>get api test</name>
+    <title>get api test</title>
+    <test-cases>
+        <test-case start='1671024746922' status='failed' stop='1671024747578'>
+            <name>verify user</name>
+            <title>verify user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 10 to equal 20</message>
+                <stack-trace>AssertionError: expected 10 to equal 20
+                    at Context.eval (http://localhost:63175/__cypress/tests?p=cypress\integration\apitesting\getapi.js:111:49)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

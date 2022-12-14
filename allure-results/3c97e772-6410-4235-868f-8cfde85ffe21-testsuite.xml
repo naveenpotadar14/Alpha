@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671024757954' stop='1671024760471'>
+    <name>Getchaining</name>
+    <title>Getchaining</title>
+    <test-cases>
+        <test-case start='1671024757954' status='broken' stop='1671024760404'>
+            <name>Get the data of san</name>
+            <title>Get the data of san</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.request()` failed on:
+                
+                https://www.metaweather.com/api/location/search/?query=san
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: GET
+                URL: https://www.metaweather.com/api/location/search/?query=san
+                Headers: {
+                  "Connection": "keep-alive",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/7.7.0 Chrome/89.0.4328.0 Electron/12.0.0-beta.14 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate"
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "content-length": "272",
+                  "content-type": "text/html; charset=UTF-8",
+                  "date": "Wed, 14 Dec 2022 13:32:26 GMT"
+                }
+                Body: 
+                &lt;html>&lt;head>
+                &lt;meta http-equiv="content-type" content="text/html;charset=utf-8">
+                &lt;title>404 Page not found&lt;/title>
+                &lt;/head>
+                &lt;body text=#000000 bgcolor=#ffffff>
+                &lt;h1>Error: Page not found&lt;/h1>
+                &lt;h2>The requested URL was not found on this server.&lt;/h2>
+                &lt;h2>&lt;/h2>
+                &lt;/body>&lt;/html>
+                
+                https://on.cypress.io/request</message>
+                <stack-trace>CypressError: `cy.request()` failed on:
+                
+                https://www.metaweather.com/api/location/search/?query=san
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: GET
+                URL: https://www.metaweather.com/api/location/search/?query=san
+                Headers: {
+                  "Connection": "keep-alive",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/7.7.0 Chrome/89.0.4328.0 Electron/12.0.0-beta.14 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate"
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "content-length": "272",
+                  "content-type": "text/html; charset=UTF-8",
+                  "date": "Wed, 14 Dec 2022 13:32:26 GMT"
+                }
+                Body: 
+                &lt;html>&lt;head>
+                &lt;meta http-equiv="content-type" content="text/html;charset=utf-8">
+                &lt;title>404 Page not found&lt;/title>
+                &lt;/head>
+                &lt;body text=#000000 bgcolor=#ffffff>
+                &lt;h1>Error: Page not found&lt;/h1>
+                &lt;h2>The requested URL was not found on this server.&lt;/h2>
+                &lt;h2>&lt;/h2>
+                &lt;/body>&lt;/html>
+                
+                https://on.cypress.io/request
+                    at http://localhost:63175/__cypress/runner/cypress_runner.js:141709:21
+                    at tryCatcher (http://localhost:63175/__cypress/runner/cypress_runner.js:10798:23)
+                    at Promise._settlePromiseFromHandler (http://localhost:63175/__cypress/runner/cypress_runner.js:8733:31)
+                    at Promise._settlePromise (http://localhost:63175/__cypress/runner/cypress_runner.js:8790:18)
+                    at Promise._settlePromise0 (http://localhost:63175/__cypress/runner/cypress_runner.js:8835:10)
+                    at Promise._settlePromises (http://localhost:63175/__cypress/runner/cypress_runner.js:8915:18)
+                    at _drainQueueStep (http://localhost:63175/__cypress/runner/cypress_runner.js:5505:12)
+                    at _drainQueue (http://localhost:63175/__cypress/runner/cypress_runner.js:5498:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:63175/__cypress/runner/cypress_runner.js:5514:5)
+                    at Async.drainQueues (http://localhost:63175/__cypress/runner/cypress_runner.js:5384:14)
+                From Your Spec Code:
+                    at Context.eval (http://localhost:63175/__cypress/tests?p=cypress\integration\apitesting\weatherapi.js:102:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

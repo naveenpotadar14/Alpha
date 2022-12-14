@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671024543136' stop='1671024543733'>
+    <name>Cypress.dom</name>
+    <title>Cypress.dom</title>
+    <test-cases>
+        <test-case start='1671024543139' status='passed' stop='1671024543708'>
+            <name>.isHidden() - determine if a DOM element is hidden</name>
+            <title>.isHidden() - determine if a DOM element is hidden</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671024750615' stop='1671024751318'>
+    <name>post api test</name>
+    <title>post api test</title>
+    <test-cases>
+        <test-case start='1671024750615' status='failed' stop='1671024751272'>
+            <name>create a user</name>
+            <title>create a user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'female' to have property 'gender'</message>
+                <stack-trace>AssertionError: expected 'female' to have property 'gender'
+                    at Context.eval (http://localhost:63175/__cypress/tests?p=cypress\integration\apitesting\postapi.js:118:40)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

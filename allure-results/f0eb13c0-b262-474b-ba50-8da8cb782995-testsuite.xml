@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671024642322' stop='1671024649085'>
+    <name>Querying</name>
+    <title>Querying</title>
+    <test-cases>
+        <test-case start='1671024642322' status='passed' stop='1671024646126'>
+            <name>cy.get() - query DOM elements</name>
+            <title>cy.get() - query DOM elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671024646149' status='passed' stop='1671024646621'>
+            <name>cy.contains() - query DOM elements with matching content</name>
+            <title>cy.contains() - query DOM elements with matching content</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671024646626' status='passed' stop='1671024647323'>
+            <name>.within() - query DOM elements within a specific element</name>
+            <title>.within() - query DOM elements within a specific element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671024647339' status='passed' stop='1671024647766'>
+            <name>cy.root() - query the root DOM element</name>
+            <title>cy.root() - query the root DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671024647780' status='passed' stop='1671024649075'>
+            <name>best practices - selecting elements</name>
+            <title>best practices - selecting elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
